@@ -7,8 +7,9 @@ public class Uppgift1 {
 	
 	 Scanner input = new Scanner(System.in);
 	 
-	 int sum = 0;
+	 
 	 int tal = input.nextInt();
+	 int sum = tal;
 	 while(tal != 0) {
 		 tal = input.nextInt();
 		 sum += tal;
