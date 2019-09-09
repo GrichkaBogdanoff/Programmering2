@@ -4,15 +4,14 @@ import java.util.ArrayList;
 
 
 public class Box //Uppgift 4
-{
+{	
+	private static ArrayList<Object> Jeff = new ArrayList<Object>();
 	
-	private static ArrayList<String> Jeff = new ArrayList<String>();
-	
-	public static void add(String a) {
+	public static void add(Object a) {
 		Jeff.add(a);
 	}
 	
-	public static ArrayList<String> returnerna(){
+	public static ArrayList<Object> returnera(){
 		return Jeff;
 	}
 }
